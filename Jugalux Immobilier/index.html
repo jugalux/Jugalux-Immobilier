@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AgenceImmobilière</title>
+        <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info"> <!--affichage nav-->
+                <div class="collapse navbar-collapse" id="menu"> <!--mettre <ul> et <form> sur une meme ligne-->
+                    <a class="navbar-brand" href="#"><img src="img/jugalux.png" width="50px" height="50px" style="border-radius:30px; margin-right:250px; margin-left:5px;"></a>
+                    <ul class="nav navbar-nav me-auto mb-2 mb-md-0"> <!--alignement horizontal des liens-->
+                        <li class="nav-item"><a class="nav-link active" href = "#">Acceuil</a></li>
+                        <li class="nav-item"><a class="nav-link active" href = "#" data-target="#QuiSommesNous">Qui Sommes Nous</a></li>
+                        <li class="nav-item"><a class="nav-link active" href = "#">Nos Services</a></li>
+                        <li class="nav-item"><a class="nav-link active" href = "#">Contact</a></li>
+                    </ul>
+                    <form class="d-flex"> <!--alignement horizontal-->
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Go</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+
+
+                            <!--Slides-->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img src="img/img13.jpeg" width="100%" height="600px">
+                        <div class="carousel-caption text-start">
+                            <h1>Canapés glamour</h1>
+                            <p>Faites nous juste confiance, nous nous occupons du reste!!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Sign up</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="img/img3.png" width="100%" height="600px">
+                        <div class="carousel-caption text-start">
+                            <h1>Décoration thème blanc</h1>
+                            <p>Nous vous offrons le meilleur confort possible</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Sign up</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img src="img/img10.jpeg" width="100%" height="600px">
+                        <div class="carousel-caption text-start">
+                            <h1>Décoration intérieure</h1>
+                            <p>Tous vos désirs et besoins font l'objet de notre priorité</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Abonnez-vous</a></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div><br><br>
+
+                            <!--Qui Sommes Nous-->
+        <font size="6px" id="les_titres"></br><center><strong>Qui Sommes Nous</strong></center></font></br>
+        <div id="imag">
+            <div id="bloc" width="400px" height="400px">
+                <p align="center">
+                    <font size="5px" id="les_titres"><strong>Présentation</strong><br/></font>
+                    <font size="4px">Depuis 5 ans déjà, jugalux Immobilier met à votre disposition de splandides maisons,
+                    pour la vente et la location. Nous vous offrons également des services de décoration d'intérieurs.
+                    En effet, nous vous offrons des services de marques tel que canapés en cuir, en din, des maisons en pierre, 
+                    Duplex, etc... </font>
+                </p>
+            </div>
+        </div>
+
+                            <!--Nos Services-->
+        </br></br>
+        <font size="6px" id="les_titres"><center><strong>Nos Services</strong></center></font>
+        <font color="silver"><center>Nous vous offrons des services de décoration d'intérieur, de location et vente de maisons...</center></font></br>
+        <div class="row" style="margin-left:70px;">
+            <div class="col-lg-4">
+                <img src="img/img14.jpeg" width="200px" height="200px" style="border-radius:100px;">
+                <h2>cuisines</h2>
+                <p>En matière de décoration, la cuisine mérite toute notre attention. Pièce conviviale par définition,
+                 la cuisine adopte toutes les tailles et tous les styles pour mieux vous séduire. En panne d'idées pour définir
+                  le style de votre nouvelle cuisine ? Besoin de conseils pour la rénover ?</p>
+                <p><a class="btn btn-secondary" href="#">Voir plus &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img src="img/img22.jpeg" width="200px" height="200px" style="border-radius:100px;">
+                <h2>Salles de bain</h2>
+                <p>Vous souhaitez donner un nouveau style à votre salle de bains ? Découvrez toute l'actualité déco
+                 sur les nouveautés et les nouvelles tendances sur Le journal ... toutes nos bonnes astuces
+                  pour twister votre salle de bains sans la changer complètement s'y trouvent.</p>
+                <p><a class="btn btn-secondary" href="#">Voir plus &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img src="img/img25.jpeg" width="200px" height="200px" style="border-radius:100px;">
+                <h2>Chambres</h2>
+                <p>Parcourez des milliers de photos de chambres pour trouver des idées de déco et 
+                d'aménagement de chambre adulte et de chambre parentale. Nos meilleures idées déco pour une chambre à tomber !</p>
+                <p><a class="btn btn-secondary" href="#">Voir plus &raquo;</a></p>
+            </div>
+        </div> </br>
+
+
+
+
+        <div id="slider">
+            <font color=""><center>Voici le <strong>top 3</strong> des maisons ayant satisfaits le plus de clients</center></font></br>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide"><img src="img/img18.jpeg" width="640px" height="300px"></div>
+                    <div class="slide"><img src="img/img12.jpeg" width="640px" height="300px"></div>
+                    <div class="slide"><img src="img/img3.png" width="640px" height="300px"></div>
+                </div>
+            </div></br>
+        </div>
+
+
+            </br>
+            </br>
+
+        
+
+
+        <div id="bl_effet_circle" class="container-fluid">
+            <font color="white" size="8px" id="les_titres"><center><strong>Partagez cette experience avec vos amis</strong></br><a class="btn btn-primary btn-lg" role="button">Partager le lien</a></center></font>
+        </div>
+
+
+               
+
+        </br></br></br>
+        <footer>
+            <div id="foot">
+                <div id="ft">
+                        <font size="4px" color="white">
+                            <img id="jg" src="img/jugalux.png" width="100px" height="100px" /><br/><br/>
+                            <div id="t">
+                                <p size="8px" id="les_titres"><strong>Contact</strong></p>
+                                +237 654371312  +237 693039514<br/><br/>
+                                Cameroun, Yaoundé
+                            </div>
+                        </font>
+                </div>
+                <div id="ft">
+                    <font size="5px" color="white">Agences Yaounde<br/><br/></font>
+                    <div id="t">
+                        <font size="4px" color="white">
+                            Mimboman<br/>
+                            Melen<br/>
+                            Ngousso<br/>
+                            Nkouabang<br/>
+                            Efoulan<br/>
+                            Etoudi
+                        </font>
+                    </div>
+                    
+                </div>
+                <div id="ft">
+                    <font size="5px" color="white">Agences Douala<br/><br/></font>
+                    <div id="t">
+                        <font size="4px" color="white">
+                            Bonaberi<br/>
+                            Akwa-Nord<br/>
+                            Cité-cicam<br/>
+                            Bonamoussadi
+                        </font>
+                    </div>
+
+                </div>
+                <div id="ft">
+                    <br/><br/><br/>
+                    <font size="5px" color="silver" id="les_titres">Jugalux Immob</font><br/>
+                    <img id="jg" src="img/img1.jpeg" width="200px" height="200px">
+                </div>
+            </div>
+            <div id="trait"></div>
+            <font size="4px" color="blue"><center>Copyright © 2020 All rights reserved | Bonamoussadi This Website is made by Jugalux corporation</center></font>
+        </footer>
+
+        <!--
+        <script src="bootstrap/jquery-slim.js"></script>
+        <script src="bootstrap/popper.min.js"></script>
+        <script src="bootstrap/docs.min.js"></script> 
+        -->
+
+    </body>
+</html>
